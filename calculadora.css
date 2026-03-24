@@ -1,0 +1,44 @@
+/* Container principal */
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+/* Coluna esquerda */
+#imagem_esq {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Coluna direita */
+#imagem_dir {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Todas as imagens */
+#imagem_esq img,
+#imagem_dir img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Conteúdo central */
+#corpo {
+    text-align: center;
+}
+
+#Saida {
+    text-align: center;
+    background-color: #19201a;
+    color: white;
+}
+
+#cachorro_sabio {
+    display: block;
+    margin: 20px auto; /* centraliza */
+    width: 200px;
+}
